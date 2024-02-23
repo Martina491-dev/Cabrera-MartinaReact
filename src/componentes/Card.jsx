@@ -1,7 +1,11 @@
-function App(){
-    return(<div>
-        <h2>Productos</h2>
-        <p>Descripcion general</p>
+import "./Card.css"
+
+
+function Card(props) {
+    return(
+    <div className="Card">
+        <h2>{props.title}</h2>
+        <p>{props.description}Descripcion general</p>
     </div>
 
     );
