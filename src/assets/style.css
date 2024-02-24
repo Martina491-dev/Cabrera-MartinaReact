@@ -1,0 +1,56 @@
+.header {
+    color: black;
+    opacity: 0.7;
+    width: 100%;
+    margin: 0;
+    border: 0;
+  }
+  .header li {
+    display: inline;
+  }
+  
+  .inicio-uno {
+    text-align: center;
+  }
+  
+  .inicio {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 9px;
+  }
+  .body-uno {
+    background-image: url(https://i.pinimg.com/564x/a1/7d/78/a17d78b0c6ede6bb4b546da674a19f12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .body-uno {
+      background-image: url(../multimedia/fondo4.avif);
+      background-size: cover;
+    }
+    .maps {
+      margin-top: 100%;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 769px) {
+    .maps {
+      display: none;
+    }
+  }
+
+  /*Estilo de carrito*/
+
+  
+
+  .carrito-count {
+    background-color: black; 
+    color: #ffffff;                                                  
+    border-radius: 20%;
+    padding: 2px 6px; 
+    position: center;
+    top: 16pxx; 
+    right: 8px;
+}
