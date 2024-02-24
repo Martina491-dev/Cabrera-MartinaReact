@@ -1,4 +1,4 @@
-import "./App.css"
+/* import "./App.css"
 import Card from "./componentes/Card"
 
 
@@ -22,4 +22,4 @@ function App() {
 
 
 
-export default App
+export default App */
