@@ -4,7 +4,7 @@ import CartWidget from './CartWidget';
 
 const Navbar = () => {
     return (<nav>
-                <div className="titulo-igual">
+        <div>
                     <h1>Classy Cars</h1>
                     <nav className="navbar navbar-expand-md navbar-light bg-light">
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

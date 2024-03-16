@@ -7,7 +7,6 @@ function App() {
     <>
     <NavBar/>
     <div className="App">
-      <h1>Nombre de la pag</h1>
       <div className="container">
         <Card title="Titulo" 
         description="la descripcion"/>
