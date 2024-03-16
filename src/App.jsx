@@ -1,9 +1,11 @@
-/* import "./App.css"
+ import "./App.css"
 import Card from "./componentes/Card"
 
 
 function App() {
   return (
+    <>
+    <NavBar/>
     <div className="App">
       <h1>Nombre de la pag</h1>
       <div className="container">
@@ -16,10 +18,12 @@ function App() {
         <Card />
       </div>
     </div>
-  );
+    </>
+  )
+   
 
 }
 
 
 
-export default App */
+export default App 

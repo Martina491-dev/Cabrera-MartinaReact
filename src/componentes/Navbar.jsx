@@ -3,9 +3,7 @@ import CartWidget from './CartWidget';
 
 
 const Navbar = () => {
-    return (
-        <header>
-            <section>
+    return (<nav>
                 <div className="titulo-igual">
                     <h1>Classy Cars</h1>
                     <nav className="navbar navbar-expand-md navbar-light bg-light">
@@ -31,19 +29,19 @@ const Navbar = () => {
                                 <li className=" nav-item inicio">
                                     <a href="modelos-unicos.html" title="Modelos unicos" className="nav-link">Modelos Unicos</a>
                                 </li>
-                            </ul>
-                            <div className="carrito">
+                           
+                           <CartWidget>
                                 <a href="#" title="Carrito de compras">
                                     <i className="fas fa-shopping-cart"></i>
                                     <span id="carrito-count" className="carrito-count">5</span>
                                 </a>
-                            </div>
+                                </CartWidget>
+                                </ul>
                         </div>
                     </nav>
                 </div>
-            </section>
-        </header>
-    );
+    
+        </nav> );
 };
 
 export default Navbar;
